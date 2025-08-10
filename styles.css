@@ -26,23 +26,23 @@ body{
     gap: 0;
 }
 .card {
-  flex: 1 1 20rem;
-  max-width: 25rem;
-  padding: 3rem;
-  color: hsl(0, 0%, 95%);
+    flex: 1 1 12rem;
+    max-width: 25rem;
+    padding: 3rem;
+    min-height: 25rem;
+    color: hsl(0, 0%, 95%);
 }
 .sedan {
-  background-color: hsl(31, 77%, 52%);
-  border-radius: 0.5rem 0 0 0.5rem;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 0.5rem 0 0 0.5rem;
 }
-
 .suv {
-  background-color: hsl(184, 100%, 22%);
+    background-color: hsl(184, 100%, 22%);
 }
 
 .luxury {
-  background-color: hsl(179, 100%, 13%);
-  border-radius: 0 0.5rem 0.5rem 0;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0.5rem 0.5rem 0;
 }
 .card img{
     margin-bottom: 2rem;
