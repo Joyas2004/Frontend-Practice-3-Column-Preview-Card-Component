@@ -61,7 +61,7 @@ body{
 }
 .card .learn {
     background-color: hsl(0, 0%, 95%);
-    border: none;
+    border: solid 0.1rem;
     padding: 0.75rem 1.5rem;
     border-radius: 2rem;
     font-weight: bold;
@@ -75,6 +75,21 @@ body{
 }
 .card .btn-lux{
     color: hsl(179, 100%, 13%);
+}
+.card .btn-sed:hover{
+    border: solid white 0.1rem;
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+.card .btn-suv:hover{
+    border: solid white 0.1rem;
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+.card .btn-lux:hover{
+    border: solid white 0.1rem;
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
 }
 @media (max-width: 520px){
     .container
