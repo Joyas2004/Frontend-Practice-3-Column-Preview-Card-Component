@@ -94,4 +94,16 @@ body{
     .luxury {
         border-radius: 0 0 0.5rem 0.5rem;
     }
+    .card .btn-sed{
+        color: hsl(31, 77%, 52%);
+        margin-bottom: 5rem;
+    }
+    .card .btn-suv{
+        color: hsl(184, 100%, 22%);
+        margin-bottom: 6rem;
+    }
+    .card .btn-lux{
+        color: hsl(179, 100%, 13%);
+        margin-bottom: 5rem;
+    } 
 }
